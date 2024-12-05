@@ -9,7 +9,5 @@ The AirBnB Clone project is designed to replicate the core functionality of Airb
 - Apply modern web development technologies and best practices.
 
 ## Tech Stack
-- **Frontend:** HTML, CSS, JavaScript, React (if applicable)
-- **Backend:** Node.js, Express (or your preferred backend framework)
-- **Database:** MongoDB, MySQL, or PostgreSQL
+- **Frontend:** HTML, CSS, JavaScript, React 
 - **Version Control:** Git and GitHub
