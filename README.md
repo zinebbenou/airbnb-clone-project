@@ -217,3 +217,176 @@ All team members are expected to:
 - Collaborate on solution design
 
 This structure ensures clear accountability while promoting collaboration and efficient project delivery. Roles may overlap or be adjusted based on project needs and team size.
+
+## UI Component Patterns
+
+### Core Components Overview
+
+#### 1. Navigation Components
+##### Navbar
+- **Description:** Primary navigation bar fixed at the top of all pages
+- **Features:**
+  - Logo and brand identity
+  - Search functionality with location input
+  - User authentication controls
+  - Responsive menu for mobile devices
+  - User profile dropdown
+- **States:**
+  - Default
+  - Scrolled (with background)
+  - Mobile menu expanded
+  - Search expanded
+
+##### Footer
+- **Description:** Site-wide footer with important links and information
+- **Features:**
+  - Links categorization (About, Support, Legal, etc.)
+  - Social media links
+  - Newsletter subscription
+  - Language/currency selector
+  - Copyright information
+- **Responsiveness:**
+  - Grid layout for desktop
+  - Accordion style for mobile
+
+#### 2. Property Components
+##### Property Card
+- **Description:** Reusable card component for property listings
+- **Features:**
+  - Image carousel/gallery
+  - Property title and basic info
+  - Price display
+  - Rating and reviews summary
+  - Favorite/save button
+  - Host information preview
+- **Variations:**
+  - Grid view (compact)
+  - List view (expanded)
+  - Featured property (highlighted)
+
+##### Property Details
+- **Description:** Comprehensive property information display
+- **Features:**
+  - Full-width image gallery
+  - Detailed amenities list
+  - Host profile section
+  - Booking calendar
+  - Reviews and ratings
+  - Location map
+  - Similar properties
+
+#### 3. Search and Filter Components
+##### Search Bar
+- **Description:** Main search interface for properties
+- **Features:**
+  - Location autocomplete
+  - Date picker for check-in/check-out
+  - Guest counter
+  - Search button
+- **States:**
+  - Collapsed
+  - Expanded
+  - Active with suggestions
+  - Loading
+
+##### Filters
+- **Description:** Property filtering system
+- **Features:**
+  - Price range slider
+  - Property type selection
+  - Amenities checkboxes
+  - Instant booking toggle
+  - Clear filters option
+- **Implementation:**
+  - Modal for mobile
+  - Sidebar for desktop
+  - Chip display for active filters
+
+#### 4. User Interface Components
+##### Forms
+- **Description:** Standardized form components
+- **Types:**
+  - Login/Signup forms
+  - Property booking form
+  - User profile edit form
+  - Payment information form
+- **Features:**
+  - Input validation
+  - Error messaging
+  - Loading states
+  - Success feedback
+
+##### Modals
+- **Description:** Overlay dialogs for focused interactions
+- **Types:**
+  - Authentication modals
+  - Booking confirmation
+  - Image gallery
+  - Reviews display
+- **Features:**
+  - Backdrop blur
+  - Close button
+  - Mobile-friendly design
+  - Keyboard navigation
+
+#### 5. Feedback Components
+##### Toast Notifications
+- **Description:** Temporary feedback messages
+- **Types:**
+  - Success messages
+  - Error alerts
+  - Information updates
+  - Warning notices
+- **Features:**
+  - Auto-dismiss
+  - Action buttons
+  - Stack management
+  - Position variants
+
+##### Loading States
+- **Description:** Visual feedback for async operations
+- **Types:**
+  - Skeleton screens
+  - Spinner animations
+  - Progress bars
+  - Placeholder content
+- **Implementation:**
+  - Component-specific loaders
+  - Page-level loading states
+  - Infinite scroll indicators
+
+### Component Architecture Guidelines
+
+#### 1. Component Organization
+- Maintain a clear folder structure
+- Implement consistent naming conventions
+- Separate business logic from presentation
+- Use atomic design principles
+
+#### 2. Reusability Principles
+- Create generic base components
+- Implement proper prop interfaces
+- Use composition over inheritance
+- Maintain consistent styling patterns
+
+#### 3. Performance Considerations
+- Implement lazy loading where appropriate
+- Optimize image loading strategies
+- Use proper memoization techniques
+- Minimize bundle size
+
+#### 4. Accessibility Standards
+- Implement ARIA labels
+- Ensure keyboard navigation
+- Maintain proper contrast ratios
+- Support screen readers
+- Follow semantic HTML practices
+
+#### 5. Testing Strategy
+- Unit tests for component logic
+- Visual regression testing
+- Accessibility testing
+- Cross-browser testing
+- Mobile responsiveness testing
+
+This component structure provides a solid foundation for building a scalable and maintainable user interface while ensuring consistency across the application.
