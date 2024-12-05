@@ -105,3 +105,115 @@ Understanding and documenting design properties is crucial for several reasons:
    - Helps maintain design integrity over time
 
 This comprehensive design system ensures that the Airbnb clone maintains high standards of visual quality and user experience while facilitating efficient development and maintenance.
+
+
+## Project Roles and Responsibilities
+
+### Core Team Structure
+
+#### Project Manager
+**Responsibilities:**
+- Overall project coordination and timeline management
+- Resource allocation and risk management
+- Stakeholder communication and reporting
+- Sprint planning and backlog prioritization
+- Ensuring project milestones are met
+- Budget management and resource optimization
+
+#### Frontend Developers
+**Responsibilities:**
+- Implementation of user interface components
+- Ensuring responsive design across devices
+- Integration with backend APIs
+- Performance optimization
+- Client-side validation and error handling
+- Implementation of user experience features
+- Cross-browser compatibility testing
+
+#### Backend Developers
+**Responsibilities:**
+- API development and documentation
+- Database design and management
+- Server-side business logic implementation
+- Security implementation and authentication
+- Performance optimization and scaling
+- Integration with third-party services
+- Data validation and error handling
+
+#### UI/UX Designers
+**Responsibilities:**
+- User interface design and prototyping
+- User experience flow optimization
+- Design system maintenance
+- User research and usability testing
+- Creation of visual assets
+- Accessibility compliance
+- Design documentation and guidelines
+
+#### QA Engineers
+**Responsibilities:**
+- Test planning and execution
+- Automated test script development
+- Bug tracking and reporting
+- User acceptance testing coordination
+- Performance testing
+- Security testing
+- Cross-browser and cross-device testing
+
+#### DevOps Engineers
+**Responsibilities:**
+- CI/CD pipeline setup and maintenance
+- Infrastructure management
+- Deployment automation
+- Monitoring and logging setup
+- Security implementation
+- Performance optimization
+- Disaster recovery planning
+
+#### Product Owner
+**Responsibilities:**
+- Product vision and strategy
+- Backlog management and prioritization
+- User story creation and refinement
+- Stakeholder management
+- Feature prioritization
+- Release planning
+- ROI optimization
+
+#### Scrum Master
+**Responsibilities:**
+- Agile process facilitation
+- Team coaching and mentoring
+- Sprint planning and retrospectives
+- Impediment removal
+- Team productivity optimization
+- Cross-team coordination
+- Agile best practices implementation
+
+### Team Collaboration Guidelines
+
+#### Communication Channels
+- Daily stand-ups: Team sync-up on progress and blockers
+- Weekly sprints: Planning and review meetings
+- Bi-weekly retrospectives: Process improvement discussions
+- Project management tool: Jira/Trello for task tracking
+- Team chat: Slack/Microsoft Teams for daily communication
+
+#### Documentation Requirements
+Each role is responsible for maintaining specific documentation:
+- Developers: Code documentation and technical specifications
+- Designers: Design systems and style guides
+- QA: Test cases and bug reports
+- DevOps: Infrastructure and deployment documentation
+
+#### Cross-functional Responsibilities
+All team members are expected to:
+- Participate in code reviews
+- Contribute to technical documentation
+- Attend team meetings and ceremonies
+- Support knowledge sharing
+- Maintain code quality standards
+- Report and track issues
+- Collaborate on solution design
+
+This structure ensures clear accountability while promoting collaboration and efficient project delivery. Roles may overlap or be adjusted based on project needs and team size.
